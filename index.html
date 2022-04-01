@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <style>
+      /* .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); } */
+    </style>
+  </head>
+  <body>
+    <div class="main" role="main">
+      <div class="img-cover">
+        <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+            fill="#FC7614"
+          />
+        </svg>
+      </div>
+      <div class="main_content">
+        <h1 role="title">How did we do?</h1>
+        <p>
+          Please let us know we did with your support request. All feedback is
+          appreciated to help us improve our offering!
+        </p>
+        <!-- RATING 1-5 -->
+        <div class="rating">
+          <div class="point">
+            <input type="radio" name="radio" value="1" id="point_1" />
+            <label for="point_1" class="checkmark">1</label>
+          </div>
+          <div class="point">
+            <input type="radio" name="radio" value="2" id="point_2" />
+            <label for="point_2" class="checkmark">2</label>
+          </div>
+          <div class="point">
+            <input type="radio" name="radio" value="3" id="point_3" />
+            <label for="point_3" class="checkmark">3</label>
+          </div>
+          <div class="point">
+            <input type="radio" name="radio" value="4" id="point_4" />
+            <label for="point_4" class="checkmark">4</label>
+          </div>
+          <div class="point">
+            <input type="radio" name="radio" value="5" id="point_5" />
+            <label for="point_5" class="checkmark">5</label>
+          </div>
+        </div>
+        <button class="button" role="button" id="button">
+          <span>Submit</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Muhammad Ramadhan Sangisda Alam</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
